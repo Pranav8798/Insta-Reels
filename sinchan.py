@@ -454,6 +454,12 @@ def myallEyes2(x,y):
     circle(9)
     end_fill()
 
+def myRobot():
+    myPosition(155,-105)
+    left(93)
+    color('red')
+    pensize(7)
+
     begin_fill()
     forward(50)
     left(90)
@@ -551,5 +557,4 @@ allEyebrows()
 allEyes()
 addText()
 ht()
-
 done()
